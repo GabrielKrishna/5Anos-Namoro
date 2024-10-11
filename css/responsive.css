@@ -21,6 +21,10 @@
     font-size: 22px;
   }
 
+  #detalhes, #memorias, #futuro {
+    padding: 16px;
+  }
+
   .carousel-container-detalhes,
   .carousel-container-memorias {
     width: 100%;
@@ -75,16 +79,11 @@
     width: 100%;
   }
 
-  .timeline-icon {
-    left: 20px;
-  }
-
   footer {
     padding: 48px 32px;
   }
 }
 
-/* Para telas grandes (acima de 1024px) */
 @media (min-width: 1024px) {
   body {
     background-size: cover;
@@ -111,10 +110,6 @@
 
   .timeline-content {
     margin-left: 80px;
-  }
-
-  .timeline-icon {
-    left: 30px;
   }
 
   footer {
