@@ -5,7 +5,7 @@
 
   #inicio {
     flex-direction: column;
-    padding: 16px;
+    padding: 24px;
   }
 
   .photo {
@@ -22,7 +22,7 @@
   }
 
   #detalhes, #memorias, #futuro {
-    padding: 16px;
+    padding: 24px;
   }
 
   .carousel-container-detalhes,
@@ -40,7 +40,7 @@
   }
 
   .timeline-content img {
-    width: 100%;
+    width: 80%;
   }
 
   .timeline-icon {

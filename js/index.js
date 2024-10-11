@@ -1,13 +1,14 @@
-let currentIndex = 0;
+let detailsIndex = 0;
+let memoriesIndex = 0;
 
 function moveCarousel1(direction) {
   const carousel = document.querySelector('.carousel-detalhes');
   const images = document.querySelectorAll('.carousel-detalhes img');
   const imageWidth = images[0].offsetWidth + parseInt(window.getComputedStyle(images[0]).marginRight);
 
-  currentIndex = (currentIndex + direction + images.length) % images.length;
+  detailsIndex = (detailsIndex + direction + images.length) % images.length;
 
-  carousel.style.transform = `translateX(${-currentIndex * imageWidth}px)`;
+  carousel.style.transform = `translateX(${-detailsIndex * imageWidth}px)`;
 }
 
 function moveCarousel2(direction) {
@@ -15,7 +16,7 @@ function moveCarousel2(direction) {
   const images = document.querySelectorAll('.carousel-memorias img');
   const imageWidth = images[0].offsetWidth + parseInt(window.getComputedStyle(images[0]).marginRight);
 
-  currentIndex = (currentIndex + direction + images.length) % images.length;
+  memoriesIndex = (memoriesIndex + direction + images.length) % images.length;
 
-  carousel.style.transform = `translateX(${-currentIndex * imageWidth}px)`;
+  carousel.style.transform = `translateX(${-memoriesIndex * imageWidth}px)`;
 }
