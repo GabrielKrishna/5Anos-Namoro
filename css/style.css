@@ -38,10 +38,16 @@ header {
 
 #inicio {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 32px;
   padding: 24px 80px 120px 80px;
   position: relative;
+}
+
+#inicio .anos {
+  color: #90887e;
 }
 
 .photo {
@@ -51,11 +57,10 @@ header {
   object-fit: contain;
 }
 
-h1,
-h2 {
+.h1 {
   font-weight: 600;
-  font-size: 32px;
-  margin-bottom: 32px;
+  font-size: 30px;
+  margin-bottom: 5px;
 }
 
 .paragrafo {
@@ -131,6 +136,8 @@ h2 {
 }
 
 #futuro {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 64px;
@@ -220,7 +227,7 @@ footer {
   z-index: 1;
 }
 
-footer b {
+footer .amo {
   color: #f1e3d0;
 }
 

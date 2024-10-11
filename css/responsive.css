@@ -5,11 +5,11 @@
 
   #inicio {
     flex-direction: column;
-    padding: 24px;
+    padding: 25px;
   }
 
   .photo {
-    max-width: 300px;
+    max-width: 370px;
   }
 
   h1 {
@@ -22,7 +22,7 @@
   }
 
   #detalhes, #memorias, #futuro {
-    padding: 24px;
+    padding: 25px;
   }
 
   .carousel-container-detalhes,
@@ -35,18 +35,11 @@
     width: 100%;
   }
 
-  .timeline-content {
-    margin-left: 40px;
-  }
 
   .timeline-content img {
     width: 80%;
   }
-
-  .timeline-icon {
-    left: 5px;
-  }
-
+  
   footer {
     padding: 32px 16px;
   }
